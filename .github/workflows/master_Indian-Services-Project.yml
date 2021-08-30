@@ -25,10 +25,10 @@ jobs:
     - name: Create and start virtual environment
       run: |
         python -m venv venv
-        source venv/bin/activate
+        source venv/Scripts/activate
 
     - name: Install dependencies
-      run: pip install -r "IndianServers/requirements.txt"
+      run: pip install -r "Indian Servers/requirements.txt"
 
     # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
